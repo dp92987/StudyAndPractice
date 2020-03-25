@@ -1,3 +1,7 @@
+"""
+Print spiral matrix n**2.
+"""
+
 def spiral_matrix(n):
     matrix = []
     for i in range(0, n):
@@ -8,7 +12,6 @@ def spiral_matrix(n):
 
     r, c = 0, 0
     move = ''
-
     for i in range(1, n**2+1):
         if move == '':
             move = 'right'
