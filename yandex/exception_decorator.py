@@ -1,3 +1,7 @@
+"""
+Decorator to repeat function in case of error.
+"""
+
 import functools
 
 def exception_decorator(func):
@@ -11,9 +15,11 @@ def exception_decorator(func):
                 pass
     return exception_decorator_wrapper
 
+
 @exception_decorator
 def foo(a, b):
-    return a / b
+    result = a / b
+    return result
 
-test = foo(1, 1)
-print(test)
+
+print(foo(1, 0))
