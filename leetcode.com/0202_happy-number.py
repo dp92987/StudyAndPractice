@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/happy-number/
+
 def calc_sum_sqr(n):
     sum_sqr = 0
     while n != 0:
