@@ -5,7 +5,7 @@
 ### Python
 - [x] Programming for Everybody (Getting Started with Python)
 
- - Python 3 Programming Specialization
+- Python 3 Programming Specialization
 	- [x] Python Basics
 	- [x] Python Functions, Files, and Dictionaries
 	- [x] Data Collection and Processing with Python
