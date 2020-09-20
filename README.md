@@ -2,6 +2,7 @@
 
 ## Courses
 
+### Python
 - [x] Programming for Everybody (Getting Started with Python) (2020-04-01)
 
  - Python 3 Programming Specialization
@@ -12,11 +13,7 @@
 	- [x] Python Project: pillow, tesseract, and opencv
 
 - [x] Complete Python Bootcamp: Got from zero to hero in Python 3
-- [x] NGINX Fundamentals: High Performance Servers from Scratch
 - [x] Python and Django Full Stack Web Developer Bootcamp
-- [x] The Complete SQL Bootcamp 2020: Go from Zero to Hero
-- [x] Trello Project Management: Complete Course
-- [x] Version Control with Git (2021-01-16)
 - [x] REST APIs with Flask and Python
 
 - Программирование на Python Specialization
@@ -25,6 +22,13 @@
 	- [ ] Создание Web-сервисов на Python
 	- [ ] Python для анализа данных
 
+### Databases
+- [x] The Complete SQL Bootcamp 2020: Go from Zero to Hero
+
+### DevOps
+- [x] NGINX Fundamentals: High Performance Servers from Scratch
+
+### Algorithms
 - Data Structures and Algorithms Specialization
 	- [ ] Algorithmic Toolbox (2020-10-13)
 	- [ ] Data Structures (2020-11-04)
@@ -32,6 +36,13 @@
 	- [ ] Algorithms on Strings
 	- [ ] Advanced Algorithms and Complexity
 	- [ ] Genome Assembly Programming Challenge
+
+### Other
+- [x] Version Control with Git (2021-01-16)
+
+### Project Management
+- [x] Trello Project Management: Complete Course
+
 
 ## Books
 
