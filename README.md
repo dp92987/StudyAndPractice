@@ -3,7 +3,7 @@
 ## Courses
 
 ### Python
-- [x] Programming for Everybody (Getting Started with Python) (2020-04-01)
+- [x] Programming for Everybody (Getting Started with Python)
 
  - Python 3 Programming Specialization
 	- [x] Python Basics
@@ -17,8 +17,8 @@
 - [x] REST APIs with Flask and Python
 
 - Программирование на Python Specialization
-	- [x] Погружение в Python (2020-09-20)
-	- [ ] ООП и паттерны проектирования в Python (2021-03-17)
+	- [x] Погружение в Python
+	- [ ] ООП и паттерны проектирования в Python
 	- [ ] Создание Web-сервисов на Python
 	- [ ] Python для анализа данных
 
@@ -30,18 +30,16 @@
 
 ### Algorithms
 - Data Structures and Algorithms Specialization
-	- [ ] Algorithmic Toolbox (2020-10-13)
-	- [ ] Data Structures (2020-11-04)
-	- [ ] Algorithms on Graphs (2020-12-08)
+	- [ ] Algorithmic Toolbox
+	- [ ] Data Structures
+	- [ ] Algorithms on Graphs
 	- [ ] Algorithms on Strings
 	- [ ] Advanced Algorithms and Complexity
 	- [ ] Genome Assembly Programming Challenge
 
 ### Other
-- [x] Version Control with Git (2021-01-16)
-
-### Project Management
 - [x] Trello Project Management: Complete Course
+- [x] Version Control with Git
 
 
 ## Books
