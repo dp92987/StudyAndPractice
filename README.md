@@ -53,6 +53,7 @@
 - [ ] Grokking Algorithms (Aditya Bhargava)
 - [ ] Computer Science Distilled (Wladston Ferreira Filho)
 - [ ] Cracking the Coding Interview (Gayle Laakmann McDowell)
+- [ ] Introduction to Algorithms (Thomas H. Cormen, Charles E. Leiserson, Ronald Rivest, Clifford Stein)
 
 ### Культура программирования
 - [ ] Clean Code (Robert Cecil Martin)
