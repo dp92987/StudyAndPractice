@@ -1,3 +1,5 @@
+--https://www.hackerrank.com/challenges/occupations/problem
+
 SELECT
     t1.Name,
     t2.Name,
