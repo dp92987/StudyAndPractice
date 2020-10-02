@@ -11,7 +11,7 @@ import os
 #
 def grading_students(grades):
     # Write your code here
-    return [grade + 5 - grade % 5 if grade >= 38 and grade % 5 in (3, 4) else grade for grade in grades]
+    return [grade + 5 - grade % 5 if grade >= 38 and grade % 5 >= 3 else grade for grade in grades]
 
 
 def main():
