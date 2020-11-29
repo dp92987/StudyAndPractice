@@ -32,6 +32,9 @@ func main() {
 		person := Name{fullName[0], fullName[1]}
 		persons = append(persons, person)
 	}
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
 
 	err = file.Close()
 	if err != nil {
