@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -17,6 +18,7 @@ func main() {
 	var file *os.File
 	var persons []Name
 
+	fmt.Print("file name: ")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	fileName := scanner.Text()
@@ -41,5 +43,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	log.Println(persons)
+	fmt.Println("result:", persons)
 }

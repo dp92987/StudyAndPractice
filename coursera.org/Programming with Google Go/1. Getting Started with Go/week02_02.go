@@ -1,19 +1,33 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"log"
+	"os"
 	"strings"
-	"unicode"
 )
 
 func main() {
-	var s string
+	reader := bufio.NewReader(os.Stdin)
 
-	_, _ = fmt.Scan(&s)
+	fmt.Print("input: ")
+	input, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
+	input = strings.Trim(input, "\n")
 
-	if unicode.ToLower(rune(s[len(s)-1])) == 'n' && unicode.ToLower(rune(s[0])) == 'i' && strings.Contains(s, "a") {
-		fmt.Println("Found!")
+	if len(input) == 0 {
+		return
+	}
+
+	firstChar := strings.ToLower(string(input[0]))
+	lastChar := strings.ToLower(string(input[len(input)-1]))
+
+	if firstChar == "i" && lastChar == "n" && strings.Contains(input, "a") {
+		fmt.Println("result: Found!")
 	} else {
-		fmt.Println("Not found!")
+		fmt.Println("result: Not found!")
 	}
 }

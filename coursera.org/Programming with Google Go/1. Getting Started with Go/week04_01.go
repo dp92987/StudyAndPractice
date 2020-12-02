@@ -12,12 +12,14 @@ import (
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
+	fmt.Print("name: ")
 	name, err := reader.ReadString('\n')
 	if err != nil {
 		log.Fatal(err)
 	}
 	name = strings.Trim(name, "\n")
 
+	fmt.Print("address: ")
 	address, err := reader.ReadString('\n')
 	if err != nil {
 		log.Fatal(err)
@@ -28,10 +30,11 @@ func main() {
 	m["name"] = name
 	m["address"] = address
 
-	j, err := json.MarshalIndent(m, "", "\t")
+	j, err := json.Marshal(m)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println(string(j))
+	fmt.Println("encoded json:", j)
+	fmt.Println("decoded json:", string(j))
 }
