@@ -1,21 +1,37 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
+	"log"
+	"os"
+	"strings"
 )
 
 func main() {
-	var name string
-	var address string
+	reader := bufio.NewReader(os.Stdin)
+
+	name, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
+	name = strings.Trim(name, "\n")
+
+	address, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
+	address = strings.Trim(address, "\n")
+
 	var m = make(map[string]string)
-
-	_, _ = fmt.Scan(&name, &address)
-
 	m["name"] = name
 	m["address"] = address
 
-	j, _ := json.Marshal(m)
+	j, err := json.MarshalIndent(m, "", "\t")
+	if err != nil {
+		log.Fatal(err)
+	}
 
-	fmt.Println(j)
+	fmt.Println(string(j))
 }
