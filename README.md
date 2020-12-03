@@ -48,6 +48,7 @@
 
 ### DevOps
 - [x] NGINX Fundamentals: High Performance Servers from Scratch
+- [ ] [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
 
 ### Algorithms
 - Data Structures and Algorithms Specialization
