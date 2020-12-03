@@ -22,6 +22,27 @@
 	- [ ] Создание Web-сервисов на Python
 	- [ ] Python для анализа данных
 
+## Go
+
+- [Programming with Google Go Specialization](https://www.coursera.org/specializations/google-golang)
+	- [x] [Getting Started with Go](https://www.coursera.org/learn/golang-getting-started)
+	- [ ] [Functions, Methods, and Interfaces in Go](https://www.coursera.org/learn/golang-functions-methods)
+	- [ ] [Concurrency in Go](https://www.coursera.org/learn/golang-concurrency)
+
+- [ ] [Разработка веб-сервисов на Go - основы языка](https://www.coursera.org/learn/golang-webservices-1)
+- [ ] [Разработка веб-сервисов на Golang, часть 2](https://www.coursera.org/learn/golang-webservices-2)
+
+- [Программирование на Go](https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I)
+	- [x] [1. Программирование на Go. Введение \| Технострим](https://www.youtube.com/watch?v=9Pk7xAT_aCU)
+	- [ ] [2. Программирование на Go. Функции, структуры, интерфейсы. Объектная модель \| Технострим](https://www.youtube.com/watch?v=9Ia16QOY8rk)
+	- [ ] [3. Программирование на Go. Асинхронная модель \| Технострим](https://www.youtube.com/watch?v=kFeM4R5TlCY)
+	- [ ] [4. Программирование на Go. Web. Работа с сетью \| Технострим](https://www.youtube.com/watch?v=lgh6zic15EA)
+	- [ ] [5. Программирование на Go. Работа СУБД \| Технострим](https://www.youtube.com/watch?v=iho3_zq4tik)
+	- [ ] [6. Программирование на Go. Система тестирования \| Технострим](https://www.youtube.com/watch?v=C9wQIYqWPiA)
+	- [ ] [7. Программирование на Go. Reflect or generate? \| Технострим](https://www.youtube.com/watch?v=uCSMU8xF1dc)
+	- [ ] [8. Программирование на Go. Производительность \| Технострим](https://www.youtube.com/watch?v=agntRAtPkK4)
+	- [ ] [9. Программирование на Go. context, unsafe, safe \| Технострим](https://www.youtube.com/watch?v=LpOioZXgplU)
+
 ### Databases
 - [x] The Complete SQL Bootcamp 2020: Go from Zero to Hero
 
