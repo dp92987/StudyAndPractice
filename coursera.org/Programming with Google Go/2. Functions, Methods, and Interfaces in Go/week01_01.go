@@ -56,7 +56,6 @@ func getTenNumbersFromInput(input string) ([]int, error) {
 }
 
 func sortBubble(numbers []int) {
-	var tmp int
 	var sorted bool
 
 	for {
@@ -64,13 +63,17 @@ func sortBubble(numbers []int) {
 		for i := 1; i < len(numbers); i++ {
 			if numbers[i] < numbers[i-1] {
 				sorted = false
-				tmp = numbers[i]
-				numbers[i] = numbers[i-1]
-				numbers[i-1] = tmp
+				swapNumbers(numbers, i)
 			}
 		}
 		if sorted == true {
 			break
 		}
 	}
+}
+
+func swapNumbers(numbers []int, i int) {
+	tmp := numbers[i]
+	numbers[i] = numbers[i-1]
+	numbers[i-1] = tmp
 }
