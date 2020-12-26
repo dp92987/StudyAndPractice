@@ -31,7 +31,7 @@ func main() {
 	}
 
 	fn := genDisplaceFn(a, v0, s0)
-	fmt.Println(fn(t))
+	fmt.Println("result:", fn(t))
 }
 
 func getValue(prompt string) (float64, error) {
