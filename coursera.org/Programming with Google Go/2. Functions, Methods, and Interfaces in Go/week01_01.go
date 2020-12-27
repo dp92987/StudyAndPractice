@@ -47,7 +47,7 @@ func getTenNumbersFromInput(input string) ([]int, error) {
 	for i, s := range splitInput {
 		num, err := strconv.Atoi(s)
 		if err != nil {
-			return []int{}, err
+			return nil, err
 		}
 		numbers[i] = num
 	}

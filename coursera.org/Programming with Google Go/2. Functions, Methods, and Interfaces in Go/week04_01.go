@@ -85,7 +85,7 @@ func (a *Snake) getName() string {
 }
 
 func main() {
-	var animals []Animal
+	var animals = make(map[string]Animal)
 
 	reader := bufio.NewReader(os.Stdin)
 
@@ -133,24 +133,22 @@ func parseInput(reader *bufio.Reader) (string, string, string, error) {
 	return action, name, type_, nil
 }
 
-func addAnimal(animals []Animal, valTypeOrAction string, name string) []Animal {
+func addAnimal(animals map[string]Animal, valTypeOrAction string, name string) map[string]Animal {
 	switch valTypeOrAction {
 	case "cow":
-		animals = append(animals, &Cow{name: name})
+		animals[name] = &Cow{name: name}
 	case "bird":
-		animals = append(animals, &Bird{name: name})
+		animals[name] = &Bird{name: name}
 	case "snake":
-		animals = append(animals, &Snake{name: name})
+		animals[name] = &Snake{name: name}
 	}
 
 	return animals
 }
 
-func getAnimal(animals []Animal, name string) Animal {
-	for _, animal := range animals {
-		if animal.getName() == name {
-			return animal
-		}
+func getAnimal(animals map[string]Animal, name string) Animal {
+	if val, ok := animals[name]; ok {
+		return val
 	}
 
 	return nil
